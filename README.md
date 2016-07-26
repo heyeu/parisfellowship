@@ -3,13 +3,20 @@
 In large subway networks, it is sometimes very hard to understand how the tunnels,
 platforms, entrances and stairs are laid out.
 
+// maybe: In large subway networks, it is often very hard to understand how the networks' tunnels, platforms, entrances, and stairs are interconnected. 
+
 The user just follows the arrows and is completely disoriented.
 
-On the street level, we can combine signs and maps, to either follow directions,
+// maybe: Users follow arrows and other signage, but are completely disorientated.
+
+On the street level, we can combine signs and maps, to either follow directions
 or understand how the streets are laid out and find our own path.
 
 This projects tries to give some kind of representation of the many layers of a
 subway station.
+
+// maybe: This projects offers a new representation of the subway networks' many layers and their relation to the street level.
+
 
 A demonstration runs at: https://tristramg.github.io/parisfellowship
 
@@ -26,7 +33,7 @@ The sources come in different formats, depending on our needs.
 
 Some tags are removed in the vector tiles provided by Mapzen.
 
-That is why we generated our own GeoJSON for some specifc stations using
+That is why we generated our own GeoJSON for some specifc stations using // why "we". i would use "i" because this was all youuuuuu
 [Imposm3](https://imposm.org/docs/imposm3/latest/) to import it in a
 [PostGIS](http://postgis.net/) spatial database and extract them with
 [ogr2ogr](http://www.gdal.org/ogr2ogr.html) as GeoJSON files.
